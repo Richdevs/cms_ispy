@@ -1,0 +1,354 @@
+CRITICAL - 2022-06-06 01:52:25 --> Call to a member function isValid() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 02:23:22 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:27:16 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:30:59 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:33:17 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:42:24 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:42:28 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:43:03 --> preg_match() expects parameter 2 to be string, array given
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'preg_match() ex...', '/opt/lampp/htdo...', 269, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(269): preg_match('/(.*?)\\[(.*)\\]/', Array, NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('0', '0', NULL, Array, Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(33): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 02:44:45 --> Call to a member function hasMoved() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 02:45:17 --> Call to a member function hasMoved() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 02:47:52 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 03:29:13 --> Call to a member function getClientName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 03:32:00 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/ispy_erp/app/Views/admin_template/installations/add-unit.php(79): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 79, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/View/View.php(210): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ispy_erp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(14): view('admin_template/...')
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->index()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-06 03:41:44 --> syntax error, unexpected ''serial'' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+#0 /opt/lampp/htdocs/ispy_erp/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('/opt/lampp/htdo...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-06 06:02:22 --> beforeInsert is not a valid Model Event callback.
+#0 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(1453): CodeIgniter\Database\Exceptions\DataException::forInvalidMethodTriggered('beforeInsert')
+#1 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(735): CodeIgniter\BaseModel->trigger('beforeInsert', Array)
+#2 /opt/lampp/htdocs/ispy_erp/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#3 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(100): CodeIgniter\BaseModel->save(Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-06-06 06:13:49 --> Column 'image' cannot be null
+CRITICAL - 2022-06-06 06:51:00 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 06:53:02 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 06:59:11 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:02:34 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:15:20 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:15:42 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:23:51 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:32:12 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:39:08 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:40:06 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:40:29 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:43:14 --> Invalid file: admin_template/installation/add-unit.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(38): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-06 07:51:27 --> Call to a member function getName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 07:53:05 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 07:55:50 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 07:56:16 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:04:59 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:06:00 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:06:04 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:06:22 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:10:21 --> Call to a member function getClientName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-06-06 08:10:42 --> Column 'image' cannot be null
+ERROR - 2022-06-06 08:11:11 --> Column 'image' cannot be null
+ERROR - 2022-06-06 08:11:20 --> Column 'image' cannot be null
+ERROR - 2022-06-06 08:11:47 --> Column 'image' cannot be null
+CRITICAL - 2022-06-06 08:12:32 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:14:32 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:14:58 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:37:26 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:38:24 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:38:58 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:47:26 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-06 08:49:24 --> Call to a member function move() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

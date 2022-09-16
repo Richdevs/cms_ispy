@@ -1,0 +1,30 @@
+CRITICAL - 2022-04-06 08:06:53 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 08:12:13 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 08:18:19 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 08:18:41 --> Class 'phpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-06 08:29:24 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

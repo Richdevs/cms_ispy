@@ -1,0 +1,108 @@
+CRITICAL - 2022-08-23 22:47:41 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:47:47 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:47:49 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:47:51 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:48:06 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:48:22 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:50:07 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:50:39 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:50:53 --> The action you requested is not allowed.
+#0 /opt/lampp/htdocs/ispy_erp/system/Security/Security.php(289): CodeIgniter\Security\Exceptions\SecurityException::forDisallowedAction()
+#1 /opt/lampp/htdocs/ispy_erp/system/Filters/CSRF.php(53): CodeIgniter\Security\Security->verify(Object(CodeIgniter\HTTP\IncomingRequest))
+#2 /opt/lampp/htdocs/ispy_erp/system/Filters/Filters.php(173): CodeIgniter\Filters\CSRF->before(Object(CodeIgniter\HTTP\IncomingRequest), NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(386): CodeIgniter\Filters\Filters->run('/exportUnits', 'before')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-23 22:54:20 --> Call to a member function table() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 23:04:35 --> Too few arguments to function App\Controllers\DeviceExportController::exportUnit(), 1 passed in /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit('2021-08-232021-...')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 23:04:47 --> Too few arguments to function App\Controllers\DeviceExportController::exportUnit(), 1 passed in /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit('2021-08-232021-...')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 23:04:47 --> Too few arguments to function App\Controllers\DeviceExportController::exportUnit(), 1 passed in /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit('2021-08-232021-...')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 23:05:01 --> Too few arguments to function App\Controllers\DeviceExportController::exportUnit(), 1 passed in /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit('2021-08-232021-...')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-08-23 23:06:56 --> Too few arguments to function App\Controllers\DeviceExportController::exportUnit(), 1 passed in /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php on line 825 and exactly 2 expected
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit('2021-08-23,2021...')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

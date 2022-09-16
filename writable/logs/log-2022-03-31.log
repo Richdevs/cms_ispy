@@ -1,0 +1,28 @@
+CRITICAL - 2022-03-31 02:16:25 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 03:15:45 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 03:15:47 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-03-31 07:18:22 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

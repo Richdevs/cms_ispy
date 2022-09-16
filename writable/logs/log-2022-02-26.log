@@ -1,0 +1,63 @@
+CRITICAL - 2022-02-26 03:47:45 --> CodeIgniter\View\View::main(): Failed opening required '../includes/header.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-02-26 03:54:23 --> include(../includes/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): include()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(135): view('admin_template/...', Array)
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->edit('2')
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-26 03:55:21 --> include(../includes/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): include()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(135): view('admin_template/...', Array)
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->edit('2')
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-26 03:55:45 --> include(includes/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): include()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(135): view('admin_template/...', Array)
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->edit('2')
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-26 03:55:56 --> include(../../includes/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../../i...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): include()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(135): view('admin_template/...', Array)
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->edit('2')
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-02-26 03:56:15 --> include(../includes/header.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'C:\\xampp\\htdocs...', 2, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users\modal.php(2): include()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(135): view('admin_template/...', Array)
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->edit('2')
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

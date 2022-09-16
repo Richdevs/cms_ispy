@@ -1,0 +1,122 @@
+CRITICAL - 2022-04-07 01:54:13 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 02:34:59 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 02:49:09 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 03:07:46 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-07 03:50:01 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 04:15:35 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 04:16:34 --> Class 'PhpOffice\PhpSpreadsheet\Spreadsheet' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-04-07 04:55:00 --> CodeIgniter\Autoloader\Autoloader::main(): Failed opening required 'vendor/autoload.php' (include_path='C:\xampp\php\PEAR')
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-04-07 04:56:33 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'REG NO')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 05:03:29 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'REG NO')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 05:03:51 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'REGNO')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 05:05:06 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', 'regno')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 06:17:16 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', '#')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 06:21:42 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', '#')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 06:21:45 --> Invalid cell coordinate A
+#0 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1301): PhpOffice\PhpSpreadsheet\Cell\Coordinate::coordinateFromString('A')
+#1 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1191): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->createNewCell('A')
+#2 C:\xampp\htdocs\ispy_erp\public\assets\vendor\vendor\phpoffice\phpspreadsheet\src\PhpSpreadsheet\Worksheet\Worksheet.php(1115): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->getCell('A')
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\DeviceExportController.php(17): PhpOffice\PhpSpreadsheet\Worksheet\Worksheet->setCellValue('A', '#')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\DeviceExportController->exportUnit()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DeviceExportController))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-07 06:23:24 --> syntax error, unexpected '$sheet' (T_VARIABLE)
+#0 C:\xampp\htdocs\ispy_erp\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\ispy_erp\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 [internal function]: spl_autoload_call('App\\Controllers...')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

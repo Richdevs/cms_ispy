@@ -1,0 +1,95 @@
+
+fieldset
+{
+    border:2px solid darkslategrey;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+    width: auto;;
+    height: 300px; ;
+
+}
+/* Vehicle FieldSet */
+.vehicle_field
+{
+    border:3px solid darkgreen;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;	
+    border-radius:8px;
+    width: auto;;
+    height: auto;
+    background-color: lightgray ;
+}
+.legend1
+{
+    font-style:normal;
+    font-size: small;
+    font-weight: bolder;
+
+  
+   
+ 
+}
+#upload {
+    opacity: 0;
+}
+
+#upload-label {
+    position: absolute;
+    top: 50%;
+    left: 1rem;
+    transform: translateY(-50%);
+   
+}
+
+.image-area{
+    border: 2px dashed rgba(5, 2, 2, 0.7);
+    border-radius:20%;
+    /* padding: 1rem; */
+    width:300;
+    height:300;
+    position:absolute;
+    
+}
+
+.image-area::before {
+    content: 'Uploaded image';
+    color: rgb(211, 34, 34);
+    font-weight: bold;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 0.8rem;
+    z-index: 1;
+    
+   
+}
+
+.image-area img {
+    z-index: 1;
+    position: relative;
+   
+}
+.closes{
+    position: absolute;
+    top: 5px;
+    right: 8px;
+    z-index: 100;
+    background-color: #FFF;
+    padding: 4px 3px;
+     
+    color: #000;
+    font-weight: bold;
+    cursor: pointer;
+    display: none;
+    text-align: center;
+    font-size: 22px;
+    line-height: 10px;
+    border-radius: 50%;
+    border:1px solid red;
+}
+#frmUnitBtns{
+    text-align:center;
+}

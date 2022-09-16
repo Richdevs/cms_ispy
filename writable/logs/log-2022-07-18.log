@@ -1,0 +1,66 @@
+CRITICAL - 2022-07-18 03:54:23 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 03:55:20 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 03:55:52 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 03:57:41 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 03:58:39 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 04:00:36 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 04:01:40 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 04:07:03 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 04:07:13 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 04:09:11 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-18 04:10:44 --> Class 'SSP' not found
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->accessoryTbl()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

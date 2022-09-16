@@ -1,0 +1,49 @@
+ERROR - 2022-04-22 03:09:08 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 3
+ERROR - 2022-04-22 03:09:11 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 3
+ERROR - 2022-04-22 03:09:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'day))' at line 3
+ERROR - 2022-04-22 03:09:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'day))' at line 3
+ERROR - 2022-04-22 03:09:53 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '))' at line 3
+ERROR - 2022-04-22 03:13:21 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as DATE)' at line 3
+ERROR - 2022-04-22 03:13:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as DATE)' at line 3
+ERROR - 2022-04-22 03:13:45 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'as DATE)' at line 3
+ERROR - 2022-04-22 03:18:06 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_at) IS NULL' at line 3
+ERROR - 2022-04-22 03:18:09 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_at) IS NULL' at line 3
+ERROR - 2022-04-22 03:18:36 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'created_at) IS NULL' at line 3
+ERROR - 2022-04-22 03:20:41 --> Unknown column 'curdate' in 'where clause'
+ERROR - 2022-04-22 03:21:48 --> Unknown column 'curdate' in 'where clause'
+ERROR - 2022-04-22 03:21:51 --> Unknown column 'curdate' in 'where clause'
+CRITICAL - 2022-04-22 05:04:39 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:05:53 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:06:27 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:06:27 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-22 05:06:51 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 57
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(57): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

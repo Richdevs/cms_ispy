@@ -1,0 +1,69 @@
+ERROR - 2022-08-18 01:46:13 --> View 'ispy.viewAccessories' references invalid table(s) or column(s) or function(s) or definer/invoker of view lack rights to use them
+CRITICAL - 2022-08-18 01:46:13 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/AccessController.php(24): CodeIgniter\BaseModel->findAll()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AccessController->index()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AccessController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-08-18 02:28:30 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 02:28:48 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 02:39:44 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 03:08:38 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 03:29:17 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 03:43:03 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 04:00:05 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 04:07:08 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-08-18 04:33:33 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 351017192 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+ERROR - 2022-08-18 04:57:52 --> Table 'ispy.installation' doesn't exist
+CRITICAL - 2022-08-18 04:57:52 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(162): CodeIgniter\BaseModel->find()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->edit('91')
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-18 04:57:54 --> Table 'ispy.installation' doesn't exist
+CRITICAL - 2022-08-18 04:57:54 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(523): CodeIgniter\Model->doFind(false, NULL)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(162): CodeIgniter\BaseModel->find()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->edit('91')
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-08-18 06:32:30 --> Table 'ispy.installation' doesn't exist
+ERROR - 2022-08-18 11:37:52 --> Table 'ispy.installation' doesn't exist
+CRITICAL - 2022-08-18 11:37:52 --> Call to a member function getResult() on bool
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/HomeController.php(24): App\Controllers\HomeController->lineChart()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\HomeController->index()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-08-18 12:01:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::count()
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\HomeController->index()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

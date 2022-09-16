@@ -1,0 +1,19 @@
+ERROR - 2022-05-10 01:55:52 --> Error connecting to the database: No connection could be made because the target machine actively refused it.
+
+CRITICAL - 2022-05-10 01:55:52 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it.
+
+#0 C:\xampp\htdocs\ispy_erp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ispy_erp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ispy_erp\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\ispy_erp\app\Validation\userRules.php(10): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\ispy_erp\system\Validation\Validation.php(292): App\Validation\userRules->ValidateUser('admin', 'email,pwd', Array, NULL)
+#6 C:\xampp\htdocs\ispy_erp\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('pwd', 'pwd', 'admin', Array, Array)
+#7 C:\xampp\htdocs\ispy_erp\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(30): CodeIgniter\Controller->validate(Array, Array)
+#9 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#10 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

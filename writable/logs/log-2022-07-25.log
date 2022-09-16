@@ -1,0 +1,149 @@
+CRITICAL - 2022-07-25 01:08:01 --> Could not move file php1GfUK7 to /opt/lampp/htdocs/ispy_erp/public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php1GfUK7', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1658729281_d1f9...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-25 01:38:17 --> Could not move file phpQzqY33 to public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpQzqY33', 'public/images/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/', '1658731097_fec3...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-25 02:35:16 --> Could not move file phpdrsG9X to public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpdrsG9X', 'public/images/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/', '1658734516_e798...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-25 02:38:24 --> Could not move file phpYEKOIk to public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpYEKOIk', 'public/images/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/', '1658734704_9924...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-25 03:20:22 --> Could not move file phpR5Igzt to /opt/lampp/htdocs/ispy_erp/public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpR5Igzt', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1658737222_962c...')
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(60): App\Controllers\AddUnitController->upload()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 07:14:41 --> Could not move file php18bPSn to /opt/lampp/htdocs/ispy_erp/public/uploads/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php18bPSn', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1658751281_ddb4...')
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(60): App\Controllers\AddUnitController->upload()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 07:16:02 --> Could not move file phpk9mMF7 to public/uploads/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpk9mMF7', 'public/uploads/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(43): CodeIgniter\HTTP\Files\UploadedFile->move('public/uploads/', '1658751362_7e47...')
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(60): App\Controllers\AddUnitController->upload()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-25 07:39:05 --> fopen(http://localhost/ispy_erp/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', '/opt/lampp/htdo...', 179, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(179): fopen('http://localhos...', 'x+b')
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1658752745_3f00...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:45:37 --> fopen(http://localhost/ispy_erp/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', '/opt/lampp/htdo...', 179, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(179): fopen('http://localhos...', 'x+b')
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1658753137_6239...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:52:58 --> fopen(http://localhost/ispy_erp/public/uploads/index.html): failed to open stream: HTTP wrapper does not support writeable connections
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://lo...', '/opt/lampp/htdo...', 179, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(179): fopen('http://localhos...', 'x+b')
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhos...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhos...', '1658753578_d8e3...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 07:54:00 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('/public/uploads...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('/public/uploads...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('/public/uploads...', '1658753640_b4cb...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 08:04:41 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('/public/uploads...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('/public/uploads...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('/public/uploads...', '1658754281_ea2b...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-25 08:05:33 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('/public/uploads...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('/public/uploads...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('/public/uploads...', '1658754333_7c90...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-07-25 08:31:59 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 08:34:14 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 08:37:21 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 08:53:21 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-25 08:53:21 --> Invalid file: admin_tempate/installations/units.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_tempate/i...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_tempate/i...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(208): view('admin_tempate/i...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-07-25 08:53:51 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-25 08:53:51 --> Invalid argument supplied for foreach()
+#0 /opt/lampp/htdocs/ispy_erp/app/Views/admin_template/installations/units.php(121): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', '/opt/lampp/htdo...', 121, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/View/View.php(210): include('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ispy_erp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(208): view('admin_template/...', Array)
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-25 08:54:25 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 08:54:47 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 08:59:30 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 09:02:04 --> Unknown column 'updated_at' in 'field list'
+ERROR - 2022-07-25 09:02:19 --> Unknown column 'updated_at' in 'field list'

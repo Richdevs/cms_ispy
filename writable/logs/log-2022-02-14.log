@@ -1,0 +1,832 @@
+CRITICAL - 2022-02-14 08:46:46 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ispy_erp\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ispy_erp\spark(45): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-14 09:02:08 --> The framework needs the following extension(s) installed and loaded: intl.
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(219): CodeIgniter\Exceptions\FrameworkException::forMissingExtension('intl')
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(177): CodeIgniter\CodeIgniter->resolvePlatformExtensions()
+#2 C:\xampp\htdocs\ispy_erp\system\bootstrap.php(146): CodeIgniter\CodeIgniter->initialize()
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(28): require('C:\\xampp\\htdocs...')
+#4 {main}
+CRITICAL - 2022-02-14 07:34:50 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 07:34:53 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 08:00:12 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:00:13 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:00:16 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:00:19 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:00:43 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:00:48 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 08:00:54 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:14:10 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:14:16 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:16:49 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:16:50 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:16:58 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:17:05 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:17:39 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('home/index')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-14 10:17:48 --> Invalid file: home/index.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('home/index.php')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('home/index', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('home/index')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-02-14 10:32:12 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:32:19 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:32:23 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 10:46:33 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 10:47:08 --> Call to undefined function flash()
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-14 10:47:14 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 10:49:35 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 10:49:41 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 10:49:56 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 10:50:03 --> Call to undefined function flash()
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-14 10:50:09 --> Call to undefined function flash()
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-14 10:50:16 --> Call to undefined function flash()
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#3 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-02-14 11:01:26 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:04 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:07 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:08 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:09 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:37 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:38 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:44 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:02:45 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:03:16 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:03:19 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:03:42 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:12:21 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:12:24 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:12:25 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:12:27 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:12:33 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:18:27 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:18:29 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:18:31 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:22:24 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:22:26 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:22:27 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:23:11 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:23:12 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:24:13 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:24:14 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:24:15 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:25:03 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:25:04 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:25:05 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:25:14 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:25:53 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:25:55 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:26:40 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:26:42 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:26:42 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:26:56 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:26:57 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:27:07 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:27:08 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 96, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:27:31 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:27:32 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:27:33 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:27:34 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 97, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:33:19 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:33:20 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:33:21 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 11:36:46 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:36:47 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(98): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 98, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:38:39 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:38:45 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:38:46 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(100): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 100, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:42:05 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:42:28 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:42:29 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:42:31 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 11:42:33 --> Illegal string offset 'userName'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\users.php(99): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 99, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(15): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 12:07:22 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 12:07:23 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 12:08:01 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 12:08:02 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-02-14 12:10:08 --> Class 'App\Models\user' not found
+#0 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+ERROR - 2022-02-14 12:11:41 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2022-02-14 12:11:41 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\ispy_erp\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\ispy_erp\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\ispy_erp\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(14): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 12:22:32 --> View themes, no current section.
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\home.php(99): CodeIgniter\View\View->endSection()
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\Home.php(9): view('admin_template/...')
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-02-14 13:09:05 --> include_once(../../Helpers/session_helper.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): include_once()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\View\View.php(226): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#6 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(16): view('admin_template/...', Array)
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-14 13:12:02 --> include_once(../../Helpers/session_helper.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): include_once()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\View\View.php(226): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#6 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(16): view('admin_template/...', Array)
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-14 13:12:03 --> include_once(../../Helpers/session_helper.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): include_once()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\View\View.php(226): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#6 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(16): view('admin_template/...', Array)
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-02-14 13:12:04 --> include_once(../../Helpers/session_helper.php): failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'C:\\xampp\\htdocs...', 3, Array)
+#1 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\index.php(3): include_once()
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\ispy_erp\system\View\View.php(226): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#5 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#6 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(16): view('admin_template/...', Array)
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#8 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\ispy_erp\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,24 @@
+ERROR - 2022-03-25 00:54:08 --> FUNCTION ispy.YEARNAME does not exist
+CRITICAL - 2022-03-25 00:54:08 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\HomeController.php(23): App\Controllers\HomeController->lineChart()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\HomeController->index()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-25 00:54:56 --> FUNCTION ispy.YEARNAME does not exist
+CRITICAL - 2022-03-25 00:54:56 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\HomeController.php(23): App\Controllers\HomeController->lineChart()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\HomeController->index()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-03-25 00:54:57 --> FUNCTION ispy.YEARNAME does not exist
+CRITICAL - 2022-03-25 00:54:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\HomeController.php(23): App\Controllers\HomeController->lineChart()
+#1 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\HomeController->index()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\HomeController))
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

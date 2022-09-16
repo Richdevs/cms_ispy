@@ -1,0 +1,62 @@
+CRITICAL - 2022-03-18 01:46:11 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 56
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(56): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(18): App\Controllers\ReturnsController->search(NULL)
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 02:01:51 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\quality\returns.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(19): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 02:01:54 --> Invalid argument supplied for foreach()
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\quality\returns.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Invalid argumen...', 'C:\\xampp\\htdocs...', 47, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(19): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-03-18 02:02:49 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 56
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(56): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(18): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 02:08:02 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 58
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(58): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(16): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 02:08:03 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 58
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(58): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(16): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-03-18 02:13:36 --> Argument 2 passed to CodeIgniter\Database\BaseBuilder::like() must be of the type string, null given, called in C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php on line 58
+#0 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(58): CodeIgniter\Database\BaseBuilder->like('regno', NULL)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\ReturnsController.php(16): App\Controllers\ReturnsController->search()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\ReturnsController->index()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReturnsController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

@@ -1,0 +1,5 @@
+ERROR - 2022-08-25 01:31:57 --> Table 'ispy.installation' doesn't exist
+ERROR - 2022-08-25 01:32:29 --> Table 'ispy.installation' doesn't exist
+ERROR - 2022-08-25 01:42:04 --> Table 'ispy.installation' doesn't exist
+ERROR - 2022-08-25 03:35:09 --> Unknown column 'idinstallation' in 'field list'
+ERROR - 2022-08-25 06:33:42 --> Table 'ispy.installation' doesn't exist

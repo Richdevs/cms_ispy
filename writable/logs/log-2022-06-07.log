@@ -1,0 +1,125 @@
+CRITICAL - 2022-06-07 01:29:51 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(45): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 01:44:10 --> Call to a member function getRandomName() on null
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(45): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 02:30:39 --> Call to undefined function form_open_multipart()
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/ispy_erp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(15): view('admin_template/...', Array)
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->index()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 02:53:36 --> Call to undefined function form_open_multipart()
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(210): include()
+#1 /opt/lampp/htdocs/ispy_erp/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(15): view('admin_template/...', Array)
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->index()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-07 02:57:53 --> strpos(): Offset not contained in string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos(): Offse...', '/opt/lampp/htdo...', 724, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(724): strpos('uploaded[imageP...', '|', 163)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(138): CodeIgniter\Validation\Validation->splitRules(Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(32): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(74): App\Controllers\AddUnitController->upload()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#8 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-07 03:00:58 --> strpos(): Offset not contained in string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos(): Offse...', '/opt/lampp/htdo...', 724, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(724): strpos('uploaded[imageP...', '|', 164)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(138): CodeIgniter\Validation\Validation->splitRules(Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(32): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(74): App\Controllers\AddUnitController->upload()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#8 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-07 03:01:04 --> strpos(): Offset not contained in string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos(): Offse...', '/opt/lampp/htdo...', 724, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(724): strpos('uploaded[imageP...', '|', 164)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(138): CodeIgniter\Validation\Validation->splitRules(Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(32): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(74): App\Controllers\AddUnitController->upload()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#8 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-07 03:03:46 --> strpos(): Offset not contained in string
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'strpos(): Offse...', '/opt/lampp/htdo...', 724, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(724): strpos('uploaded[imageP...', '|', 164)
+#2 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(138): CodeIgniter\Validation\Validation->splitRules(Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/Controller.php(160): CodeIgniter\Validation\Validation->run()
+#4 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(32): CodeIgniter\Controller->validate(Array)
+#5 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(74): App\Controllers\AddUnitController->upload()
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#8 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-06-07 03:04:40 --> Call to a member function hasMoved() on null
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(74): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 03:07:42 --> Call to a member function hasMoved() on null
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(67): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 03:41:09 --> Call to a member function getClientName() on null
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(67): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 03:52:09 --> Call to a member function getClientName() on null
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(67): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-07 04:02:40 --> Column 'image' cannot be null
+ERROR - 2022-06-07 04:07:56 --> Column 'image' cannot be null
+ERROR - 2022-06-07 04:09:08 --> Column 'image' cannot be null
+ERROR - 2022-06-07 04:14:26 --> Column 'image' cannot be null
+ERROR - 2022-06-07 04:17:02 --> Column 'image' cannot be null
+ERROR - 2022-06-07 04:21:28 --> Column 'image' cannot be null
+CRITICAL - 2022-06-07 04:34:38 --> Call to a member function getClientName() on string
+#0 /opt/lampp/htdocs/ispy_erp/app/Controllers/AddUnitController.php(74): App\Controllers\AddUnitController->upload()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\AddUnitController->addUnit()
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AddUnitController))
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-06-07 04:50:42 --> Duplicate entry '0' for key 'PRIMARY'
+ERROR - 2022-06-07 06:47:46 --> Column 'image' cannot be null

@@ -1,0 +1,245 @@
+CRITICAL - 2022-02-24 06:54:42 --> Illegal string offset 'clientname'
+#0 C:\xampp\htdocs\ispy_erp\app\Views\admin_template\units.php(83): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Illegal string ...', 'C:\\xampp\\htdocs...', 83, Array)
+#1 C:\xampp\htdocs\ispy_erp\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ispy_erp\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#4 C:\xampp\htdocs\ispy_erp\app\Controllers\UnitsController.php(18): view('admin_template/...', Array)
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UnitsController->index()
+#6 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#7 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-02-24 07:33:51 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:33:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:34:49 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:34:49 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:34:50 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:34:50 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:36:17 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:36:17 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:37:14 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:37:14 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:37:16 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:37:16 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:37:31 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:37:31 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:43:39 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:43:39 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:43:40 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:43:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:44:40 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:44:40 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:44:41 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:44:41 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:44:42 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:44:42 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:44:58 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:44:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:45:57 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:45:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:45:57 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:45:57 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:45:58 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:45:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:45:58 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:45:58 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:46:29 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:46:29 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:46:30 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:46:30 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:46:45 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:46:45 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:55:34 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:55:34 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:56:51 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:56:51 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:56:52 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:56:52 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:56:53 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:56:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:56:53 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:56:53 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-02-24 07:56:55 --> Table 'ispy.user' doesn't exist
+CRITICAL - 2022-02-24 07:56:55 --> Call to a member function getResult() on bool
+#0 C:\xampp\htdocs\ispy_erp\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#1 C:\xampp\htdocs\ispy_erp\app\Controllers\UserController.php(59): CodeIgniter\BaseModel->findAll()
+#2 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\UserController->getData()
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

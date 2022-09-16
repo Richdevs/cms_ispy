@@ -1,0 +1,13 @@
+CRITICAL - 2022-08-22 08:00:04 -->  is not a valid rule.
+#0 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('')
+#1 /opt/lampp/htdocs/ispy_erp/system/Validation/Validation.php(157): CodeIgniter\Validation\Validation->processRules('cpwd', 'cpwd', '', Array, Array)
+#2 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(1347): CodeIgniter\Validation\Validation->run(Array, NULL, NULL)
+#3 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(707): CodeIgniter\BaseModel->validate(Array)
+#4 /opt/lampp/htdocs/ispy_erp/system/Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#5 /opt/lampp/htdocs/ispy_erp/system/BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#6 /opt/lampp/htdocs/ispy_erp/app/Controllers/UserController.php(132): CodeIgniter\BaseModel->save(Array)
+#7 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UserController->insert()
+#8 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#11 {main}

@@ -1,0 +1,106 @@
+CRITICAL - 2022-07-21 01:11:44 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 01:50:05 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 01:54:40 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 02:33:30 --> Invalid file: admin_template/installation/units.php
+#0 /opt/lampp/htdocs/ispy_erp/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 /opt/lampp/htdocs/ispy_erp/system/Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(215): view('admin_template/...', Array)
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-21 02:36:26 --> unlink(/opt/lampp/htdocs/ispy_erp/public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/opt/lam...', '/opt/lampp/htdo...', 213, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(213): unlink('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 02:37:13 --> unlink(/opt/lampp/htdocs/ispy_erp/public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(/opt/lam...', '/opt/lampp/htdo...', 213, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(213): unlink('/opt/lampp/htdo...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+ERROR - 2022-07-21 03:02:01 --> Unknown column 'updated_at' in 'field list'
+CRITICAL - 2022-07-21 05:56:37 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 211, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(211): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('3208')
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 06:26:28 --> Call to a member function isValid() on null
+#0 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#1 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-21 06:29:35 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 06:32:18 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 06:35:14 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 06:49:49 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 08:02:11 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 227, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(227): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->rmImage('6')
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-21 08:30:23 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

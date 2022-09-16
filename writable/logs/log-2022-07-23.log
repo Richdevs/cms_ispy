@@ -1,0 +1,178 @@
+CRITICAL - 2022-07-23 01:34:35 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 02:17:34 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 02:19:17 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/', NULL)
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 02:23:28 --> unlink(): http does not allow unlinking
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(): http ...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('http://localhos...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 02:27:47 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 03:00:38 --> unlink(./public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('./public/images...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 03:09:18 --> unlink(./public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(./public...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('./public/images...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 03:10:27 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 03:15:00 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 03:16:44 --> unlink(public/images/): Is a directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(public/i...', '/opt/lampp/htdo...', 180, Array)
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(180): unlink('public/images/')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 04:07:54 --> Could not move file phpFL2sU7 to public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpFL2sU7', 'public/images/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/', '1658567273_8930...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 04:10:26 --> Could not move file php3G0UNr to /opt/lampp/htdocs/ispy_erp/public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('php3G0UNr', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1658567426_a55b...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 04:23:23 --> Could not move file phppfdoQ3 to public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phppfdoQ3', 'public/images/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/', '1658568203_a39a...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 04:27:39 --> Could not move file phpuWgOzb to /opt/lampp/htdocs/ispy_erp/public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpuWgOzb', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1658568459_7644...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 04:33:18 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('public/images/1...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('public/images/1...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/1...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-23 04:35:40 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('public/images/1...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('public/images/1...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/1...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-23 04:36:58 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('public/images/1...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('public/images/1...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/1...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-23 04:40:00 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('public/images/1...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('public/images/1...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(185): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/1...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-07-23 04:43:01 --> Could not move file phpFYV6az to public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpFYV6az', 'public/images/', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('public/images/', '1658569381_4483...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 05:00:10 --> Could not move file phpWeR4ZD to /opt/lampp/htdocs/ispy_erp/public/images/ ()
+#0 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(149): CodeIgniter\HTTP\Exceptions\HTTPException::forMoveFailed('phpWeR4ZD', '/opt/lampp/htdo...', '')
+#1 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...', '1658570410_065e...')
+#2 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#3 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-23 05:01:05 --> mkdir(): Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mkdir(): Permis...', '/opt/lampp/htdo...', 176, Array)
+#1 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(176): mkdir('/opt/lampp/htdo...', 511, true)
+#2 /opt/lampp/htdocs/ispy_erp/system/HTTP/Files/UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('/opt/lampp/htdo...')
+#3 /opt/lampp/htdocs/ispy_erp/app/Controllers/UnitsController.php(184): CodeIgniter\HTTP\Files\UploadedFile->move('/opt/lampp/htdo...')
+#4 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(825): App\Controllers\UnitsController->update()
+#5 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UnitsController))
+#6 /opt/lampp/htdocs/ispy_erp/system/CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 /opt/lampp/htdocs/ispy_erp/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}

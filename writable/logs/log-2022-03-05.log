@@ -1,0 +1,80 @@
+ERROR - 2022-03-05 02:31:57 --> Column 'change_from' cannot be null
+CRITICAL - 2022-03-05 02:31:57 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(69): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 04:01:48 --> Column 'change_to' cannot be null
+CRITICAL - 2022-03-05 04:01:48 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(71): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 04:03:21 --> Column 'change_to' cannot be null
+CRITICAL - 2022-03-05 04:03:21 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(71): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 07:10:53 --> Cannot add or update a child row: a foreign key constraint fails (`ispy`.`transfers`, CONSTRAINT `transfers_ibfk_1` FOREIGN KEY (`userid`) REFERENCES `users` (`userid`))
+CRITICAL - 2022-03-05 07:10:53 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(34): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->update()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 15:14:18 --> Column 'change_to' cannot be null
+CRITICAL - 2022-03-05 15:14:18 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(71): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 15:19:08 --> Column 'change_to' cannot be null
+CRITICAL - 2022-03-05 15:19:08 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(71): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 15:20:11 --> Column 'change_to' cannot be null
+CRITICAL - 2022-03-05 15:20:11 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(71): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-03-05 15:21:13 --> Column 'change_to' cannot be null
+CRITICAL - 2022-03-05 15:21:13 --> Invalid file: admin_template/installations/user.php
+#0 C:\xampp\htdocs\ispy_erp\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('admin_template/...')
+#1 C:\xampp\htdocs\ispy_erp\system\Common.php(1089): CodeIgniter\View\View->render('admin_template/...', Array, true)
+#2 C:\xampp\htdocs\ispy_erp\app\Controllers\TransController.php(71): view('admin_template/...')
+#3 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(825): App\Controllers\TransController->unitChange()
+#4 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TransController))
+#5 C:\xampp\htdocs\ispy_erp\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\ispy_erp\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
